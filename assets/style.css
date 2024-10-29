@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-main1{
+    background-color: #f3f2ec;
+}
+.bg-main2{
+    background-color: #edebe4;
+}
+.bg-homeWord {
+    color: #dfa556 !important;
+}
+.custom-active:active{
+    color: #dfa556 !important;
+}
+.custom-height{
+    height:100vh;
+    overflow-y: auto !important;
+}
+.custom-img{
+    height: 400px;
+}
+.cart{
+    display: none !important;
+}
+.cart-1:hover{
+    .cart{
+        display: block !important;
+    }
+}
+.custom-width-text{
+    width: 290px !important;
+}
+.custom-button-carousel{
+    color: #aaaba8;
+}
+.custom-border-carousel{
+    color: #d6c3b3 !important;
+    border: 1px solid #d6c3b3 !important;
+    border-radius: 0 !important;
+}
+.custom-color-gray ,.paragraph{
+    color: #b5afb5;
+}
+.custom-border{
+    width: 300px;
+    border: 1px solid #b5afb5 ;
+}
+.custom-featured-book-title{
+    color:#74642f !important;
+}
+.custom-featured-book-author{
+    color:#757575 !important;
+}
+.custom-border-best{
+    width: 50px;
+    border: 2px solid #74642f;
+}
+.active1{
+    border-bottom: 2px solid #9a884c;
+}
+.custom-color-li{
+    color: #999999;
+}
+.custom-border-subscribe{
+    border: 0;
+    background-color: #edebe4;
+    border-bottom:3px solid #6f6f6f !important;
+}
+.custom-footer-color{
+    color: #c8a992;
+}
+.brands{
+    color: #2f2f2f !important;
+}
+@media  (max-width:1115px) {
+    .custom-border {
+        display: none;
+    }
+}

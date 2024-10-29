@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <title>Task 6</title>
+</head>
+<body>
+    <header>    
+        <nav class="navbar navbar-expand-md bg-main1 p-0 py-2 fixed-top border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.png" alt="logo" width="150">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fs-6"></span>
+                    <span class="text-center fs-5">MENU</span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item px-2">
+                            <a class="nav-link custom-active bg-homeWord" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link custom-active" href="#">FEATURED</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link custom-active" href="#">POPULAR</a>
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+        </nav>
+        <section id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner custom-height bg-main1 pt-5">
+                <div class="carousel-item active pt-5">
+                    <div class="container d-flex align-items-center justify-content-around flex-md-row flex-column">
+                        <div class="col-md-8 col-12 custom-width-text text-md-start text-center order-2 order-md-1">
+                            <h5 class="fs-1 fw-bold">Life Of The Wild</h5>
+                            <p class="py-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem animi, obcaecati debitis itaque molestiae quidem aspernatur sint! Iusto incidunt aspernatur, numquam sint laborum id quasi autem delect molestiae?
+                            </p>
+                            <button class="btn custom-border-carousel my-3">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                        <div class="col-md-4 col-12 text-center mt-md-0 mt-4 order-1 order-md-2">
+                            <img class="my-5 custom-img" src="assets/images/main-banner1.jpg" alt="Life Of The Wild">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item pt-5">
+                    <div class="container d-flex align-items-center justify-content-around flex-md-row flex-column">
+                        <div class="col-md-8 col-12 custom-width-text text-md-start text-center order-2 order-md-1">
+                            <h5 class="fs-1">Birds gonna Be Happy</h5>
+                            <p class="py-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem animi, obcaecati debitis itaque molestiae quidem aspernatur sint! Iusto incidunt aspernatur, numquam sint laborum id quasi autem delect molestiae?
+                            </p>
+                            <button class="btn custom-border-carousel mt-3">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                        <div class="col-md-4 col-12 text-center mt-md-0 mt-4 order-1 order-md-2">
+                            <img class="my-5 custom-img" src="assets/images/main-banner2.jpg" alt="Birds gonna Be Happy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="border p-2 px-3 rounded-circle custom-button-carousel" aria-hidden="true"><i class="fa-solid fa-arrow-left-long"></i></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="border p-2 px-3 rounded-circle custom-button-carousel" aria-hidden="true"><i class="fa-solid fa-arrow-right-long"></i></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+    </header>
+    <main>
+        <!-- photo -->
+        <section class="bg-main2 py-5">
+            <div class="container">
+                <div class="row d-flex justify-content-center gap-4 py-3">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <img src="assets/images/client-image1.png" alt="university" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <img src="assets/images/client-image2.png" alt="FLAPRISE" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <img src="assets/images/client-image3.png" alt="BOOKSTORE" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <img src="assets/images/client-image4.png" alt="BOOKDOOR" class="img-fluid">
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
+                        <img src="assets/images/client-image5.png" alt="LIBRARY" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Featured Books -->
+        <section class="bg-main1 pb-5">
+            <div class="container">
+                <div class="text-center pt-5 custom-color-gray fs-6">SOME QUALITY ITEMS</div>
+                
+                <div class="text-black fs-1 mx-2 d-flex justify-content-center align-items-center py-3">
+                    <div class=" custom-border "></div>
+                    <h2 class="mx-5 ">Featured Books</h2>
+                    <div class="custom-border"></div>
+                </div>
+                
+                <div class="bookDiv row"></div>
+
+                <div class="border-bottom"></div>
+
+                <div class="d-flex justify-content-end align-items-center py-3">
+                    <button class="btn fw-bold"> View All Products &nbsp; <i class="fa-solid fa-arrow-right-long "></i></button>
+                </div>
+            </div>
+        </section>
+        <!-- Best Selling -->
+        <section class="bg-main2">
+            <div class="container">
+                <div class=" w-75">
+                    <div class="row py-5">
+                        <div class="img_best pt-4 col-md-6 col-12"></div>
+                        <div class="col-md-6 col-12 pt-5" >
+                            <h2 class="fs-1 mb-3 fw-bolder ">Best Selling <span class="fs-1 d-block fw-bold">Book</span></h2>
+                            <div class="custom-border-best mb-5 "></div>
+                            <div class="info_best"></div>
+                            <button class="btn mt-5">Shop It Now &nbsp; <i class="fa-solid fa-arrow-right-long "></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Popular Books -->
+        <section class="bg-main1">
+            <div class="container pb-5">
+                <div class="text-center pt-5 custom-color-gray fs-6">SOME QUALITY ITEMS</div>
+                
+                <div class="text-black fs-1 mx-2 d-flex justify-content-center align-items-center py-3">
+                    <div class=" custom-border "></div>
+                    <h2 class="mx-5 ">Popular Books</h2>
+                    <div class="custom-border"></div>
+                </div>
+
+                <ul class="d-flex justify-content-center pb-5 row list-unstyled ">
+                    <li class=" col-lg-2 col-md-3 col-6  "><a href="#" class="text-decoration-none text-black active1 fw-bold ">All Genre</a></li>
+                    <li class=" col-lg-2 col-md-3 col-6 px-4"><a href="#" class="text-decoration-none custom-color-li">Business</a></li>
+                    <li class=" col-lg-2 col-md-3 col-6 px-4"><a href="#" class="text-decoration-none custom-color-li">Technology</a></li>
+                    <li class=" col-lg-2 col-md-3 col-6 px-4"><a href="#" class="text-decoration-none custom-color-li">Romantic</a></li>
+                    <li class=" col-lg-2 col-md-3 col-6 px-4"><a href="#" class="text-decoration-none custom-color-li">Adventure</a></li>
+                    <li class=" col-lg-2 col-md-3 col-6 px-4"><a href="#" class="text-decoration-none custom-color-li">Fictional</a></li>
+                </ul>
+
+                <div class="popular_book row"></div>
+
+
+            </div>
+        </section>
+        <!-- Subscribe -->
+        <section class="bg-main2 pb-5">
+            <div class="container py-5 ">
+                    <div class="d-flex justify-content-center align-items-center py-5 ">
+                        <div class="pt-3 " >
+                            <h2 class="fs-1 fw-bolder">Subscribe To <span class="fs-1 fw-bold d-block">Our Newsletter</span></h2>
+                            <div class="custom-border-best"></div>
+                        </div>
+                        <div class="ms-5 w-25 ">
+                            <p class="custom-color-gray pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel exercitationem autem dolorum sit nobis et odio magnam deserunt.</p>
+                            <div class="d-flex">
+                                <p class="ms-1 custom-color-gray">Enter Your Email Adress Here</p>
+                                <button class="btn border-0 text-black fw-bolder d-flex">SEND<i class="fa-solid fa-paper-plane fs-6 mt-1"></i></button>
+                            </div>
+                            <input type="email" class="custom-border-subscribe w-100">
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </section>
+<!-- footer -->
+        <section class="bg-main1  pt-4">
+            <div class="container">
+                <div class="mx-4 py-5 border-buttom-1 row  ">
+                    <div class="col-sm-12 col-md-4 border-0">
+                        <div class="card-body me-5 pe-5">
+                            <img src="assets/images/logo.png" class="py-4" alt="logo">
+                            <p class="custom-color-gray text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ratione accusamus in repellendus. Qui corporis quas doloremque vitae soluta quis voluptatum rem minima! Alias velit ad exercitationem dignissimos rerum repellendus nostrum.</p>
+                        </div>
+                    </div>
+                    <div class="py-4 col-sm-12 col-md-8 row text-center">
+                        <div class="card-body col-sm-12 col-md-3">
+                            <h5 class="card-title fw-bold pb-4">About Us</h5>
+                            <ul class="list-group list-unstyled  ">
+                                <li class=" py-2 border-0 fw-light">
+                                    <a href="#" class="text-decoration-none text-center w-100 text-black">vision</a>
+                                </li>
+                                <li class=" py-2 border-0 fw-light">
+                                    <a href="#" class="text-decoration-none text-center w-100 text-black">articles</a>
+                                </li>
+                                <li class=" py-2 border-0 fw-light">
+                                    <a href="#" class="text-decoration-none text-center w-100 text-black">careers</a>
+                                </li>
+                                <li class=" py-2 border-0 fw-light">
+                                    <a href="#" class="text-decoration-none text-center w-100 text-black">service terms</a>
+                                </li>
+                                <li class=" py-2 border-0 fw-light ">
+                                    <a href="#" class="text-decoration-none text-center w-100 text-black">donate</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold pb-4">Discover</h5>
+                                <ul class="list-group list-unstyled list-group-flush">
+                                    <li class=" py-2  border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Home</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Books</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Authors</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Subjects</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Advanced Search</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold pb-4">My Account</h5>
+                                <ul class="list-group list-unstyled list-group-flush">
+                                    <li class=" py-2  border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Sgin In</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">View Cart</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">My Wishtlist</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Track My Order</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold pb-4">Help</h5>
+                                <ul class="list-group list-unstyled list-group-flush">
+                                    <li class=" py-2  border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Help Center</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Report a problem</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Suggesting edits</a>
+                                    </li>
+                                    <li class=" py-2 border-0 fw-light">
+                                        <a href="#" class="text-decoration-none text-center w-100 text-black">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row border-top">
+                    <div class="d-flex py-5 col-md-10 col-12 ">
+                        <i class="fa-regular fa-copyright mt-1 me-1 custom-color-gray"></i>
+                        <p class="fs-6 custom-color-gray">2022 All rights reserved. Free HTML Template by <span class="custom-footer-color" >TemplatesJungle</span></p>
+                    </div>
+                    <div class="row py-5 col-md-2 col-4 ">        
+                        <a class="col-3" href="https://www.facebook.com/profile.php?id=100008545773926&mibextid=LQQJ4d">
+                            <i class="fa-brands fa-facebook-f bg-main brands"></i>
+                        </a>
+                        <a class="col-3" href="https://x.com/alharash82?s=2">
+                            <i class="fa-brands fa-twitter bg-main brands"></i>
+                        </a>
+                        <a class="col-3" href="https://www.youtube.com/@baraa82">
+                            <i class="fa-brands fa-youtube bg-main brands"></i>
+                        </a>
+                        <a class="col-3" href="#">
+                            <i class="fa-brands fa-square-behance bg-main brands"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/script.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
